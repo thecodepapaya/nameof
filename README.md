@@ -29,14 +29,14 @@ Considering the strength of our batch and the fact that almost every academic ac
   
  **Try using sudo if you encounter any permission related issues**
  
+  ## Screenshot
  
-  
- ![A sample run](preview.png)
+ ![A sample execution](preview.png)
+ 
  
  ## Proposed Enhancements in future
  - Addition of more details like
     + Section
     + Lab Group
- - Enabling searching of details using name
- - Making provisions for getting names of multiple students at a time by providing multiple space spearated arguments.
- 
+ - Enabling searching of student details using name
+ - Making provisions for getting names of multiple students at a time by providing multiple space separated arguments.
