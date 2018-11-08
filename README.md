@@ -1,4 +1,5 @@
 # nameof
+
 A simple and handy tool to find the name of a student from command line using their Institute ID
 
 ## What can it do?
@@ -35,6 +36,7 @@ Considering the strength of our batch and the fact that almost every academic ac
  
  
  ## Proposed Enhancements in future
+ 
  - Addition of more details like
     + Section
     + Lab Group
