@@ -19,9 +19,12 @@ Considering the strength of our batch and the fact that almost every academic ac
 
   `cd nameof`
 
-3.) Install by executing
+3.) Make install.sh executable and execute install.sh
 
-  `./install.sh`
+  ```
+  chmod 751 install.sh
+  ./install.sh
+  ```
 
 4.) Run by executing the following command
  
