@@ -35,7 +35,7 @@ Considering the strength of our batch and the fact that almost every academic ac
  
   ## Screenshot
  
- ![A sample execution](preview.png)
+ ![A sample execution](img/preview.png)
  
  
  ## Proposed Enhancements in future
