@@ -20,14 +20,13 @@ Considering the strength of our batch and the fact that almost every academic ac
 
   `cd nameof`
 
-3.) Make install.sh executable and execute install.sh
+3.) Execute install.sh
 
   ```
-  chmod 751 install.sh
   ./install.sh
   ```
 
-4.) Run by executing the following command
+4.) Run by executing the following command on the terminal
  
   `nameof <insert-9-digit-institute-id>`
   
