@@ -32,7 +32,7 @@ int main(int argcount,char **arg)
                 if(!strcmp(db.id,arg[i]))
                 {
                     flag=1;
-                    printf(" %s\n",db.name);
+                    printf(" %s\t%s\n",db.id,db.name);
                     continue;
                 }
             }
