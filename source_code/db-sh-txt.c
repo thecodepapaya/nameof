@@ -9,6 +9,8 @@ struct stud
     char name[20];
 }db;
 
+void converttoupper(char**,int);
+
 int main(int argcount,char **arg)
 {
     FILE *fptr;
@@ -41,6 +43,7 @@ int main(int argcount,char **arg)
     }
     else if(isalpha(arg[1][0]))
     {
+        converttoupper(arg,argcount);
         for(i=1;i<=argcount-1;++i)
         {            
             rewind(fptr);
@@ -63,4 +66,16 @@ int main(int argcount,char **arg)
     }
     fclose(fptr);
     return 0;
+}
+
+void converttoupper(char **strings,int argcount)
+{
+    int i=0,j=0;
+    for(i=1;i<=argcount-1;++i)
+    {
+        for(j=0;strings[i][j]!='\0';++j)
+        {
+            strings[i][j]=toupper(strings[i][j]);
+        }
+    }
 }
