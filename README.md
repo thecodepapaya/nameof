@@ -39,8 +39,10 @@ Considering the strength of our batch and the fact that almost every academic ac
  
  ## Proposed Enhancements in future
  
- - Addition of more details like
+ [ ] Addition of more details like
     + Section
     + Lab Group
- - Enabling searching of student details using name
- - Making provisions for getting names of multiple students at a time by providing multiple space separated arguments.
+
+ [X] Enabling searching of student details using name
+ 
+ [X] Making provisions for getting names of multiple students at a time by providing multiple space separated arguments.
