@@ -26,9 +26,12 @@ Considering the strength of our batch and the fact that almost every academic ac
   ./install.sh
   ```
 
-4.) Run by executing the following command on the terminal
+4.) Run by executing the following commands on the terminal
  
-  `nameof <insert-9-digit-institute-id>`
+  ```
+  nameof <9-digit-space-separated-institute-ids>
+  nameof <space-separated-keywords>
+  ```
   
  **Try using sudo if you encounter any permission related issues**
  
