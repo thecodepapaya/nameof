@@ -41,8 +41,8 @@ Considering the strength of our batch and the fact that almost every academic ac
  
  :heavy_exclamation_mark: Addition of more details like
 
-    - Section
-    - Lab Group
+  - Section
+  - Lab Group
 
  :heavy_check_mark: Enabling searching of student details using name
 
