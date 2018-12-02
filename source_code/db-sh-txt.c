@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#include<ctype.h>
 
 struct stud
 {
@@ -8,25 +9,52 @@ struct stud
     char name[20];
 }db;
 
-int main(int argc,char **argid)
+int main(int argcount,char **arg)
 {
     FILE *fptr;
-    if(argc==1)
+    int i,flag=0;
+    char *readdata;
+    if(argcount==1)
     {
-        printf(" Give at least on argument\n For example, use \"nameof 201851029\"\n");
+        printf(" Give at least one argument\n For example, use \"nameof 201851000\"\n");
         return 0;
     }
-    int flag=0,i;
-    char *readdata;
     fptr=fopen("database.txt","r");
-    while(!feof(fptr))
+    if(isdigit(arg[1][0]))
     {
-        fscanf(fptr,"%s",db.id);
-        fscanf(fptr,"%s",db.name);
-        if(!strcmp(db.id,argid[1]))
+        for(i=1;i<=argcount-1;++i)
         {
-            flag=1;
-            printf(" %s\n",db.name);
+            rewind(fptr);
+            while(!feof(fptr))
+            {
+                fscanf(fptr,"%s",db.id);
+                fscanf(fptr,"%s",db.name);
+                if(!strcmp(db.id,arg[i]))
+                {
+                    flag=1;
+                    printf(" %s\n",db.name);
+                    continue;
+                }
+            }
+        }
+
+    }
+    else if(isalpha(arg[1][0]))
+    {
+        for(i=1;i<=argcount-1;++i)
+        {            
+            rewind(fptr);
+            while(!feof(fptr))
+            {
+                fscanf(fptr,"%s",db.id);
+                fscanf(fptr,"%s",db.name);
+                if(strstr(db.name,arg[i]))
+                {
+                    flag=1;
+                    printf(" %s\t%s\n",db.id,db.name);
+                    continue;
+                }
+            }
         }
     }
     if(!flag)
