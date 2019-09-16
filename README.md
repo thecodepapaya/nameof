@@ -7,7 +7,7 @@ This is a command line tool whch can give you the name of any student from the b
 
 ## Why I built it?
 
-Considering the strength of our batch and the fact that almost every academic activity involves our ID's, it sometimes becomes difficult to identify and find people by their ID's. Hence I've buit this command line tool to find names from ID.
+Considering the strength of our batch and the fact that almost every academic activity involves our ID's, it sometimes becomes difficult to identify and find people by their ID's. Hence I've built this command line tool to find names from ID.
 
 ## How to use?
 
