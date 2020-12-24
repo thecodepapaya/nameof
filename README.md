@@ -35,8 +35,11 @@ Considering the strength of our batch and the fact that almost every academic ac
   ## Screenshot
  
  ![A sample execution](preview.png)
- 
- 
+
+
+5.) Uninstall the tool by executing the following command 
+    './uninstall_nameof.sh'
+
  ## Proposed Enhancements in future
  - Addition of more details like
     + Section
