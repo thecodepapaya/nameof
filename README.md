@@ -3,7 +3,7 @@ A simple and handy tool to find the name of a student from command line using th
 
 ## What can it do?
 
-This is a command line tool whch can give you the name of any student from the batch of 2018-2022 by their institute ID.
+This is a command line tool whch can give you the name of any student from your institute by their institute ID , only you have to change the data of "database.txt" file according to the data of your institute, it has currently data of the batch of 2018-2022 of IIIT Vadodara.
 
 ## Why I built it?
 
