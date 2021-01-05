@@ -8,7 +8,7 @@ then
 path=$(pwd)
 rmpath=$(sudo rm -r $path)
     if sudo rm -r /usr/share/nameof && sudo rm /usr/local/bin/nameof && $rmpath  ;then
-        echo "successfully uninstalled the \"nameof\" tool , use \"sudo apt autoremove;sudo apt autoclean\" for removing traces and free up memory"
+        echo "successfully uninstalled the \"nameof\" tool "
     else
         echo "Error deleting the \"nameof\" tool "
         exit 6
