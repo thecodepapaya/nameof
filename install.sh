@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo chmod 755 uninstall_nameof.sh
 sudo chmod 755 db-sh-txt
 sudo chmod 755 nameof
 echo "Giving executable permissions ..."
